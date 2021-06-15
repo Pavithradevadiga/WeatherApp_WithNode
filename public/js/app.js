@@ -1,5 +1,4 @@
 
-console.log('I am rendered')
 fetch('http://localhost:3000/Weather?address=.').then((response)=>{
     response.json().then((data)=>{
         if(data.error){
